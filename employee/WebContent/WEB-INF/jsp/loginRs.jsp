@@ -36,8 +36,8 @@ Account account = (Account) application.getAttribute("loginData");
 		<%=account.getAddress()%>
 		<%=account.getDepartment()%>
 	</p>
-<form method="post">
-<a href="/employee/MainServlet">社員管理一覧へ</a>
+<form method="post" action="/employee/MainServlet">
+  <button>社員管理一覧へ</button>
 </form>
 </body>
 </html>
